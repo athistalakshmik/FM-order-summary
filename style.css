@@ -1,0 +1,126 @@
+/* 
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900 */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+}
+.container {
+  background-color: hsl(225, 100%, 98%);
+  width: 30%;
+  border-radius: 11px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow:  0 15px 15px hsla(245, 57%, 71%, 0.5);
+
+}
+.heading {
+  color: hsl(223, 47%, 23%);
+  margin: 1rem 0;
+  font-weight: 900;
+}
+.para {
+  padding: 0 2rem;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 1.5rem;
+}
+.plan {
+  display: flex;
+  margin: 1rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsl(225, 100%, 94%);
+  border-radius: 11px;
+}
+.premium {
+  margin-right: 5rem;
+}
+.premium .pro {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+.premium .pro-price {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  padding-top: 5px;
+}
+.link .btn{
+    color: hsl(245, 75%, 52%);
+    font-weight: 500;
+}
+.link .btn:hover {
+color:  hsl(245, 52%, 49%);    
+text-decoration: none;
+}
+.button .click{
+    margin-bottom: 2rem;
+    border: none;
+    padding: 1rem 6.5rem;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 11px;
+    color: hsl(225, 100%, 94%);
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow:  0 15px 15px hsla(245, 57%, 71%, 0.5);
+}
+.click:hover {
+    background-color:  hsl(245, 52%, 49%);
+    color: hsl(225, 100%, 94%);
+}
+.cancel {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 15px;
+}
+.order {
+    margin-bottom: 1rem;
+}
+@media (max-width: 1150px) {
+    .container {
+        width: 40%;
+    }
+}
+@media (max-width: 900px) {
+    .container {
+        width: 50%;
+    }
+}
+@media (max-width: 450px) {
+    .container {
+        width: 90%;
+    }
+} 
