@@ -41,8 +41,7 @@ body {
   border-radius: 11px;
   overflow: hidden;
   text-align: center;
-  box-shadow:  0 15px 15px hsla(245, 57%, 71%, 0.5);
-
+  box-shadow: 0 15px 15px hsla(245, 57%, 71%, 0.5);
 }
 .heading {
   color: hsl(223, 47%, 23%);
@@ -77,50 +76,50 @@ body {
   font-weight: 500;
   padding-top: 5px;
 }
-.link .btn{
-    color: hsl(245, 75%, 52%);
-    font-weight: 500;
+.link .btn {
+  color: hsl(245, 75%, 52%);
+  font-weight: 500;
 }
 .link .btn:hover {
-color:  hsl(245, 52%, 49%);    
-text-decoration: none;
+  color: hsl(245, 52%, 49%);
+  text-decoration: none;
 }
-.button .click{
-    margin-bottom: 2rem;
-    border: none;
-    padding: 1rem 6.5rem;
-    background-color: hsl(245, 75%, 52%);
-    border-radius: 11px;
-    color: hsl(225, 100%, 94%);
-    cursor: pointer;
-    font-weight: 700;
-    box-shadow:  0 15px 15px hsla(245, 57%, 71%, 0.5);
+.button .click {
+  margin-bottom: 2rem;
+  border: none;
+  padding: 1rem 6.5rem;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 11px;
+  color: hsl(225, 100%, 94%);
+  cursor: pointer;
+  font-weight: 700;
+  box-shadow: 0 15px 15px hsla(245, 57%, 71%, 0.5);
 }
 .click:hover {
-    background-color:  hsl(245, 52%, 49%);
-    color: hsl(225, 100%, 94%);
+  background-color: hsl(245, 52%, 49%);
+  color: hsl(225, 100%, 94%);
 }
 .cancel {
-    color: hsl(224, 23%, 55%);
-    font-weight: 500;
-    text-decoration: none;
-    font-size: 15px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 15px;
 }
 .order {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 @media (max-width: 1150px) {
-    .container {
-        width: 40%;
-    }
+  .container {
+    width: 40%;
+  }
 }
 @media (max-width: 900px) {
-    .container {
-        width: 50%;
-    }
+  .container {
+    width: 50%;
+  }
 }
 @media (max-width: 450px) {
-    .container {
-        width: 90%;
-    }
-} 
+  .container {
+    width: 90%;
+  }
+}
